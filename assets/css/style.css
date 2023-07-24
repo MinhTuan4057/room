@@ -1,0 +1,252 @@
+.well h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.well .card {
+  background-color: #eff1f1;
+}
+
+/* USER PROFILE PAGE */
+
+/*BEGIN TAB*/
+.card {
+  padding: 30px;
+  background-color: rgba(214, 224, 226, 0.2);
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.card.hovercard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* BEGIN MODEL */
+.contain {
+  width: 460px;
+  height: 590px;
+  margin: 0 auto;
+  position: relative;
+}
+.body {
+  width: 250px;
+  height: 500px;
+  background: url("./../images/allbody/bodynew.png");
+  position: absolute;
+  top: 12%;
+  left: 22%;
+  background-size: cover;
+}
+.bikinitop {
+  width: 250px;
+  height: 500px;
+  background: url("./../images/allbody/bikini_branew.png");
+  position: absolute;
+  top: 12%;
+  left: 22%;
+  z-index: 3;
+  background-size: cover;
+}
+
+.bikinibottom {
+  width: 250px;
+  height: 500px;
+  background: url("./../images/allbody/bikini_pantsnew.png");
+  position: absolute;
+  top: 12%;
+  left: 22%;
+  z-index: 2;
+  background-size: cover;
+}
+
+.model {
+  width: 60px;
+  height: 77px;
+  background: url("./../images/model/1000new.png");
+  position: absolute;
+  top: 5%;
+  left: 45.5%;
+  z-index: 1;
+  background-size: cover;
+}
+
+.handbag {
+  width: 500px;
+  height: 1000px;
+  position: absolute;
+  bottom: -40.5%;
+  right: -3.5%;
+  transform: scale(0.5);
+  z-index: 4;
+  background-size: cover;
+}
+
+.necklace {
+  width: 500px;
+  height: 1000px;
+  position: absolute;
+  bottom: -40%;
+  right: -3.5%;
+  transform: scale(0.5);
+  z-index: 4;
+}
+
+.hairstyle {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: -76.5%;
+  right: -57%;
+  transform: scale(0.15);
+  z-index: 4;
+  background-size: cover;
+}
+
+.feet {
+  width: 500px;
+  height: 1000px;
+  background: url("./../images/shoes/shoes1.png");
+  position: absolute;
+  bottom: -37%;
+  right: -3.5%;
+  transform: scale(0.5);
+  z-index: 1;
+  background-size: cover;
+}
+
+.background {
+  width: 900px;
+  height: 1500px;
+  background-image: url(./../images/background/background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -90%;
+  right: -50%;
+  transform: scale(0.5);
+  z-index: -1;
+  background-size: cover;
+}
+
+/* END MODEL */
+
+hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.nav-pills .nav-item {
+  width: 140px;
+  text-align: center;
+}
+.nav-pills .nav-item .nav-link {
+  border: 1px solid #ccc;
+  border-radius: 0 !important;
+}
+.well {
+  background-color: #eff1f1;
+  height: 700px;
+  width: 100%;
+}
+
+.card {
+  border: none;
+  padding-top: 30px;
+}
+
+/* Tab panes */
+.header {
+  padding: 5px 58px;
+
+}
+.header__menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.header__menu li {
+  margin-right: 5px;
+}
+.btn__menu {
+  width: 145px;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  color: #3e89fe;
+  transition: ease 0.5s;
+
+}
+.btn__menu:hover {
+  background-color: #3e89fe;
+  color: #fff;
+}
+
+.product {
+  padding: 0 70px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+}
+
+.product__item {
+  text-align: center;
+    max-width: 17%;
+    margin: 0  0 30px 0;
+
+}
+.const-img {
+  height: 249px;
+  background: #fff;
+  padding: 0 13px;
+}
+.const-img img {
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.text {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 6px 0 7px 0;
+}
+.btntest {
+  width: 100%;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  color: #3e89fe;
+  transition: ease 0.5s;
+}
+.btntest:hover {
+  background-color: #3e89fe;
+  color: #fff;
+}
+.prd {
+  width: 100%;
+}
+.product.hidden {
+  display: none;
+}
+.pr {
+  margin-left: -64px;
+  width: 100%;
+  width: 1237px;
+  height: auto;
+}
